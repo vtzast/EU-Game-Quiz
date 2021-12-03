@@ -33,7 +33,7 @@ def create_member(x, y, text):
 already_guessed = []
 
 while score < len(Members):
-    answer = screen.textinput(title=f"Guess th EU member  {len(already_guessed)}/27",
+    answer = screen.textinput(title=f"Guess the EU member  {len(already_guessed)}/27",
                               prompt="Please enter another member's name?").title()
 
     if answer in Members:
